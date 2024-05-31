@@ -1,42 +1,46 @@
 [
     {
-        "title": "Template",
+        "title": "Leistungen",
         "items": [
             {
-                "label": "Features",
-                "href": "#features"
+                "label": "Trauringe",
+                "href": "#services"
             },
             {
-                "label": "Testimonials",
+                "label": "Verlobungsringe",
+                "href": "#portfolio"
+            },
+            {
+                "label": "Schmuck",
+                "href": "#pricing"
+            },
+            {
+                "label": "Schmuckdesign",
                 "href": "#testimonials"
             },
             {
-                "label": "FAQ",
+                "label": "Reparaturen",
                 "href": "#faq"
             }
         ]
     },
     {
-        "title": "Company",
+        "title": "Werkstatt",
         "items": [
             {
-                "label": "About",
-                "href": "https://github.com/christian-luntok/astro-nutritrack",
+                "label": "Über mich",
+                "href": "/",
                 "target": "_blank"
             },
-            {
-                "label": "Twitter",
-                "href": "https://github.com/christian-luntok/astro-nutritrack",
-                "target": "_blank"
-            },
+
             {
                 "label": "Instagram",
-                "href": "https://github.com/christian-luntok/astro-nutritrack",
+                "href": "/",
                 "target": "_blank"
             },
             {
                 "label": "Facebook",
-                "href": "https://github.com/christian-luntok/astro-nutritrack",
+                "href": "/",
                 "target": "_blank"
             }
         ]

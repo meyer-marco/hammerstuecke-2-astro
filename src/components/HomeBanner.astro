@@ -14,43 +14,69 @@ import { MotionBTTContainer } from "./motion/MotionBTTContainer.jsx";
 
 <SectionContainer class="page-banner--container py-16">
     <SectionContainer class="page-banner--inner-container wrap wrap-px z-10">
-        <BadgeGroup alignment="center">
+        <!--         <BadgeGroup alignment="center">
             <BadgeMessage>Discover NutriTrack!</BadgeMessage>
             <BadgeIcon icon="mdi:hand-wave" />
-        </BadgeGroup>
+        </BadgeGroup> -->
         <PageTitle class="text-center mx-auto" type="heavy">
-            The effortless way to plan your meals with the power of Notion.
+            Ihre Goldschmiede für einzigartige Schmuckstücke!
         </PageTitle>
         <Content class="text-center" alignment="center">
             <p>
-                Streamline your nutrition journey and achieve your health goals
-                with ease.{" "}
+                Entdecke handgefertigte Schmuckstücke von Hammerstücke,
+                gefertigt mit Liebe und Kreativität.
             </p>
         </Content>
         <div class="mt-6 mb-16 text-center">
             <ButtonGroup alignment="center">
-                <Button href="#features">Features</Button>
+                <!--   <Button href="#features">Kontakt</Button> -->
                 <a
                     role="button"
-                    href="https://github.com/christian-luntok/astro-nutritrack"
+                    href="mailto:"
+                    target="_blank"
                     class="btn btn--secondary"
                 >
-                    Get Template
-                    <Icon name="mdi:arrow-right" class="w-6" />
+                    Kontakt
+                    <Icon name="mdi:envelope-outline" class="w-6" />
                 </a>
             </ButtonGroup>
         </div>
         <div class="page-banner--image">
-            <Image
-                src={"/images/nutritrack-hero-banner.png"}
+            <!--       <PageTitle class="text-center mx-auto z-50" type="heavy">
+                The effortless way to plan your meals with the power of Notion.
+            </PageTitle> -->
+            <!--         <Image
+                src={"/images/magic-gem-banner.png"}
                 width={1024}
                 height={680}
                 alt={"Page Banner"}
-                objectFit={"cover"}
                 aspectRatio={16 / 9}
                 format={"webp"}
                 class="mx-auto"
-            />
+            /> -->
+
+            <div class="relative max-w-3xl mx-auto mt-20 rounded-2xl">
+                <Image
+                    src={"/images/magic-gem-banner.png"}
+                    width={1024}
+                    height={680}
+                    alt={"Page Banner"}
+                    aspectRatio={16 / 9}
+                    format={"webp"}
+                    class="rounded-2xl"
+                />
+                <div class="absolute inset-0 rounded-md"></div>
+                <!-- 
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="flex items-center">
+                        <h2
+                            class="text-white text-3xl font-bold text-center mb-0"
+                        >
+                            Ihre Goldschmiede für einzigartige Schmuckstücke!
+                        </h2>
+                    </div>
+                </div> -->
+            </div>
         </div>
     </SectionContainer>
 </SectionContainer>

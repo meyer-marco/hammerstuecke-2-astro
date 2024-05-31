@@ -13,6 +13,6 @@ const { class: className, imageClass, width, height, alt, src } = Astro.props;
         loading="lazy"
         aspectRatio={3 / 2}
         format={"webp"}
-        class={`object-cover ${imageClass && imageClass}`}
+        class={`object-cover rounded-2xl ${imageClass && imageClass}`}
     />
 </div>

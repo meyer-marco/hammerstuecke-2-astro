@@ -14,17 +14,16 @@ const { contentImageData } = Astro.props;
                 class="process-item--container grid md:grid-cols-2 gap-y-8"
             >
                 <div
-                    class={`process-item--image rounded-3xl ${
+                    class={`process-item--image ${
                         item.align === "left" ? "md:order-1" : ""
                     }`}
                 >
                     <Image
                         src={item.image}
-                        width={550}
-                        height={380}
-                        aspectRatio={1 / 1}
+                        height={1024}
+                        width={1024}
                         alt="Process Banner 1"
-                        class="drop-shadow-xl w-full offset-y-0 offset-x-8 blur-16 object-cover"
+                        class="drop-shadow-xl w-full offset-y-0 offset-x-8 blur-16 object-cover rounded-3xl"
                     />
                 </div>
                 <div

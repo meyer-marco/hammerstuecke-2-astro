@@ -7,37 +7,34 @@ import { Image } from "@astrojs/image/components";
 import navData from "@/data/navData.json";
 ---
 
-<header
-    id="header"
-    class="header fixed left-0 w-full z-30 top-0 bg-white backdrop-filter backdrop-blur-md bg-opacity-50"
->
+<header id="header" class="header fixed left-0 w-full z-30 top-0 bg-white">
     <SectionContainer class="header--container wrap wrap-px">
         <div class="header-logo--container">
-            <h1 class="logo mb-0">
+            <h1 class="mb-0">
                 <a href="/">
                     <Image
-                        src="/nutritrack.svg"
+                        src="/HammerstueckeLogoNew4.svg"
                         alt="logo"
-                        class="h-6 w-auto"
-                        height={24}
-                        aspectRatio={7 / 1}
-                        format={"webp"}
+                        height={32}
+                        width={200}
+                        format="svg"
                     />
                 </a>
             </h1>
         </div>
+        <!-- Navigation -->
         <SectionContainer class="flex items-center ml-auto">
             <Nav navItems={navData} />
-            <ButtonGroup class="hidden md:block">
-                <a
-                    role="button"
-                    href="https://github.com/christian-luntok/astro-nutritrack"
-                    class="btn btn--secondary ml-4"
-                >
-                    Get Template
-                    <Icon name="mdi:arrow-right" class="w-6" />
-                </a>
-            </ButtonGroup>
+            <!--                <ButtonGroup class="hidden md:block">
+                    <a
+                        role="button"
+                        href="https://github.com/christian-luntok/astro-nutritrack"
+                        class="btn btn--secondary ml-4"
+                    >
+                        Get Template
+                        <Icon name="mdi:arrow-right" class="w-6" />
+                    </a>
+                </ButtonGroup> -->
         </SectionContainer>
     </SectionContainer>
 </header>
