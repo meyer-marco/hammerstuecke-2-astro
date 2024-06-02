@@ -4,8 +4,7 @@
     { "name": "FAQ", "to": "#faq", "href": "/#faq" },
     {
         "name": "Kontakt",
-        "href": "mailto:",
-        "isArrow": true,
-        "target": "_blank"
+        "href": "/#contact",
+        "isArrow": true
     }
 ]

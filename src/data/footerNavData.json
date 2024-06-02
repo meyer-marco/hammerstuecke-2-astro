@@ -39,8 +39,13 @@
                 "target": "_blank"
             },
             {
-                "label": "Facebook",
-                "href": "/",
+                "label": "Impressum",
+                "href": "/imprint",
+                "target": "_blank"
+            },
+            {
+                "label": "Datenschutzerklärung",
+                "href": "/gdpr",
                 "target": "_blank"
             }
         ]

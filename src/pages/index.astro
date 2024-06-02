@@ -20,6 +20,7 @@ import CardBody from "@/components/card/CardBody.astro";
 import CardImage from "@/components/card/CardImage.astro";
 import CardHeader from "@/components/card/CardHeader.astro";
 import Column from "@/components/Column.astro";
+import ContactForm from "../components/contactForm/ContactForm.astro";
 ---
 
 <Layout
@@ -60,7 +61,7 @@ import Column from "@/components/Column.astro";
                     Persönliche Beratung
                 </PageTitle>
                 <Content class="text-center" alignment="center">
-                    <p>
+                    <p class="">
                         Hier ist es bekannt, wie wichtig die Wahl der richtigen
                         Eheringe ist. Deshalb bieten wir Ihnen eine persönliche
                         Beratung an, um Ihre Vorstellungen und Wünsche bis ins
@@ -77,21 +78,21 @@ import Column from "@/components/Column.astro";
                             class="w-full bg-white-600/20 p-12 rounded-2xl"
                         >
                             <CardImage
-                                src="/images/marriagerings.webp"
+                                src="/images/customer.webp"
                                 alt="Customizable Layouts image used."
                             />
                             <CardHeader
                                 class="!text-black !text-2xl !font-bold"
                             >
-                                Customizable Layouts
+                                Viele Designmöglichkeiten
                             </CardHeader>
-                            <p>
-                                Personalize your meal planning experience with
-                                our flexible layouts. Tailor your sections,
-                                categories, and tabs to suit your unique style
-                                and organization preferences. Our template
-                                adapts to your needs, providing a seamless and
-                                personalized planning experience.
+                            <p class="h-40">
+                                Lassen Sie Ihrer Kreativität freien Lauf! Unsere
+                                Goldschmiede bieten Ihnen eine Vielzahl an
+                                Designoptionen, um Ihre Eheringe ganz nach Ihren
+                                Vorstellungen zu gestalten. Ob klassisch,
+                                modern, extravagant oder schlicht – bei mir
+                                finden Sie garantiert das passende Design.
                             </p>
                         </CardBody>
                     </Card>
@@ -100,25 +101,26 @@ import Column from "@/components/Column.astro";
                             class="w-full bg-white-600/20 rounded-2xl p-12"
                         >
                             <CardImage
-                                src="/images/customer.webp"
+                                src="/images/marriagerings.webp"
                                 alt="Progress Tracking image used."
                             />
                             <CardHeader
                                 class="!text-black !text-2xl !font-bold"
                             >
-                                Progress Tracking
+                                Persönliche Gravuren
                             </CardHeader>
-                            <p>
-                                Celebrate your wins and stay motivated on your
-                                nutrition journey. NutriTrack allows you to
-                                monitor your progress with weight, measurements,
-                                and other key metrics. Track your improvements
-                                over time and see the positive impact of your
-                                healthy choices.
+                            <p class="h-40">
+                                Machen Sie Ihre Eheringe zu etwas ganz
+                                Besonderem mit einer persönlichen Gravur. Ob
+                                Datum, Namen oder eine Liebesbotschaft – die
+                                Gravur macht Ihre Ringe zu etwas Einzigartigem.
                             </p>
                         </CardBody>
                     </Card>
                 </CardGroup>
+            </SectionContainer>
+            <SectionContainer id="contact" class="flex justify-center">
+                <ContactForm />
             </SectionContainer>
             <!-- More Features -->
             <!--                 <SectionContainer id="testimonials" class="benefits">

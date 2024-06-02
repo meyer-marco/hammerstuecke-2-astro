@@ -8,9 +8,16 @@
     },
     {
         "id": 1,
-        "title": "Handgefertigte Eheringe",
+        "title": "Individuelle Eheringe",
         "content": "Ihre Zufriedenheit ist unser oberstes Ziel. Deshalb begleiten wir Sie von der ersten Idee bis zum fertigen Ring und darüber hinaus. Unser Service endet nicht mit der Übergabe Ihrer Eheringe – wir sind immer für Sie da, wenn Sie Fragen haben oder Unterstützung benötigen.",
         "align": "left",
         "image": "/images/rings.webp"
+    },
+    {
+        "id": 1,
+        "title": "Fachgerechte Reparaturen",
+        "content": "Vertrauen Sie auf meine Expertise bei der Reparatur Ihrer wertvollen Schmuckstücke. Ich setze mein Wissen und meine Fähigkeiten ein, um Ihre Lieblingsstücke wieder in neuem Glanz erstrahlen zu lassen. Egal ob beschädigter Ring, gerissene Kette oder verlorener Stein – ich repariere alles mit größter Sorgfalt und Präzision.",
+        "align": "right",
+        "image": "/images/repair.webp"
     }
 ]
