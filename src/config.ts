@@ -3,13 +3,12 @@
 import type { Site, SocialMediaObjects } from "./types";
 
 export const SITE: Site = {
-    siteUrl: "https:/www.astro-nutritrack.chrstnl.com/", // Always put "/" at the end of the URL
-    author: "chrstnl",
-    desc: "A personal portfolio landing template for developers and designers.",
-    title: "Astro Nutritrack",
+    siteUrl: "https://hammerstuecke.de/", // Always put "/" at the end of the URL
+    author: "Hammerstücke",
+    desc: "Hammerstücke: Hier finden Sie einzigartige, handgefertigte Schmuckstücke. Meine Kollektion beinhaltet Ringe, Ketten und mehr.",
+    title: "Hammerstücke",
     ogImage: "images/astro-nutritrack.png",
-    keywords:
-        "Personal portfolio, landing page, page template, developer portfoliom designer portfolio",
+    keywords: "Schmuck, handgefertigt, Ringe, Eheringe, Ketten, Armbänder",
     postPerPage: 3
 };
 
@@ -17,29 +16,22 @@ export const SITE: Site = {
 
 export const SOCIALS: SocialMediaObjects = [
     {
-        name: "Github",
-        href: "https://github.com/christian-luntok/astro-nutritrack/",
-        icon: "ph:github-logo-duotone",
-        title: `Follow ${SITE.author} on Github`,
-        active: true
-    },
-    {
         name: "Facebook",
-        href: "https://github.com/christian-luntok/astro-nutritrack/",
+        href: "https://hammerstuecke.de//",
         icon: "ph:facebook-logo-duotone",
         title: `Follow ${SITE.title} on Facebook`,
         active: false
     },
     {
         name: "Instagram",
-        href: "https://github.com/christian-luntok/astro-nutritrack/",
+        href: "https://hammerstuecke.de/",
         icon: "ph:instagram-logo-duotone",
         title: `Follow ${SITE.author} on Instagram`,
         active: true
     },
     {
         name: "LinkedIn",
-        href: "https://github.com/christian-luntok/astro-nutritrack/",
+        href: "https://hammerstuecke.de/",
         icon: "ph:linkedin-logo-duotone",
         title: `Follow ${SITE.title} on LinkedIn`,
         active: true
@@ -53,44 +45,23 @@ export const SOCIALS: SocialMediaObjects = [
     },
     {
         name: "Twitter",
-        href: "https://github.com/christian-luntok/astro-nutritrack/",
+        href: "https://hammerstuecke.de/",
         icon: "ph:twitter-logo-duotone",
         title: `Follow ${SITE.author} on Twitter`,
         active: true
     },
     {
         name: "YouTube",
-        href: "https://github.com/christian-luntok/astro-nutritrack/",
+        href: "https://hammerstuecke.de/",
         icon: "",
         title: `${SITE.title} on YouTube`,
         active: false
     },
     {
         name: "WhatsApp",
-        href: "https://github.com/christian-luntok/astro-nutritrack/",
+        href: "https://hammerstuecke.de/",
         icon: "",
         title: `${SITE.title} on WhatsApp`,
-        active: false
-    },
-    {
-        name: "Snapchat",
-        href: "https://github.com/christian-luntok/astro-nutritrack/",
-        icon: "",
-        title: `${SITE.title} on Snapchat`,
-        active: false
-    },
-    {
-        name: "CodePen",
-        href: "https://github.com/christian-luntok/astro-nutritrack/",
-        icon: "",
-        title: `${SITE.title} on CodePen`,
-        active: false
-    },
-    {
-        name: "Discord",
-        href: "https://github.com/christian-luntok/astro-nutritrack/",
-        icon: "",
-        title: `${SITE.title} on Discord`,
         active: false
     }
 ];
