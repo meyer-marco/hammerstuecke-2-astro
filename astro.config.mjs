@@ -7,6 +7,7 @@ import image from "@astrojs/image";
 import prefetch from "@astrojs/prefetch";
 
 // https://astro.build/config
+//TODO: Set site to the actual domain !!!
 export default defineConfig({
     site: "https://meyer-marco.github.io",
     vite: {
