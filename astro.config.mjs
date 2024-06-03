@@ -8,7 +8,8 @@ import prefetch from "@astrojs/prefetch";
 
 // https://astro.build/config
 export default defineConfig({
-    site: "https://hammerstuecke.de/",
+    site: "https://astronaut.github.io",
+    base: "hammerstuecke-2-astro",
     vite: {
         optimizeDeps: {
             exclude: ["@resvg/resvg-js"]
