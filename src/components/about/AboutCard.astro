@@ -1,0 +1,52 @@
+---
+import Content from "../Content.astro";
+import PageTitle from "../PageTitle.astro";
+import SectionContainer from "../SectionContainer.astro";
+import BadgeGroup from "../badge/BadgeGroup.astro";
+import BadgeIcon from "../badge/BadgeIcon.astro";
+import BadgeMessage from "../badge/BadgeMessage.astro";
+import { Image } from "@astrojs/image/components";
+---
+
+<SectionContainer class="page-banner--inner-container wrap wrap-px z-10">
+    <!--     <BadgeGroup alignment="center">
+        <BadgeMessage>Entdecke Hammerstücke!</BadgeMessage>
+        <BadgeIcon icon="mdi:hand-wave" />
+    </BadgeGroup> -->
+    <PageTitle class="text-center mx-auto" type="heavy">Über mich</PageTitle>
+    <Content class="text-center" alignment="center">
+        <div class="flex justify-center">
+            <p>
+                Hallo, ich bin Katja, eine passionierte und erfahrene
+                Goldschmiedin.
+            </p>
+        </div>
+
+        <Content class="text-center" alignment="center">
+            <div class="flex justify-center mx-auto mt-20">
+                <Image
+                    src={"/images/katja.webp"}
+                    width={256}
+                    height={256}
+                    alt={"Person"}
+                    aspectRatio={1 / 1}
+                    class="rounded-full"
+                />
+            </div>
+            <div class="flex justify-center text-base mt-12">
+                <p class="">
+                    Geboren und aufgewachsen bin ich in der wunderschönen
+                    Landschaft Schleswig-Holsteins. Die Schönheit der Natur
+                    spiegelt sich auch in meiner Arbeit wider. Durch meine
+                    Ausbildung beherrsche ich das Handwerk mit Präzision und
+                    Kunstfertigkeit. Jedes meiner erschaffenen Stücke ist ein
+                    kleines Kunstwerk für sich und sei es nur durch einen
+                    außergewöhnlichen Stein. <br />
+                    <br />Am 25.Juni 2023 habe ich nun meine eigene Goldschmiede
+                    im kleinen Wakendorf ll, in dem schönen Alstertal, eröffnet.
+                    Ich freue mich, mit Dir zusammen Neues zu kreieren…
+                </p>
+            </div>
+        </Content>
+    </Content>
+</SectionContainer>

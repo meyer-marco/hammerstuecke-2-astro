@@ -29,7 +29,7 @@
         "items": [
             {
                 "label": "Über mich",
-                "href": "/",
+                "href": "#about",
                 "target": "_blank"
             },
 

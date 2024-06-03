@@ -21,6 +21,7 @@ import CardImage from "@/components/card/CardImage.astro";
 import CardHeader from "@/components/card/CardHeader.astro";
 import Column from "@/components/Column.astro";
 import ContactForm from "../components/contactForm/ContactForm.astro";
+import AboutCard from "../components/about/AboutCard.astro";
 ---
 
 <Layout
@@ -121,6 +122,10 @@ import ContactForm from "../components/contactForm/ContactForm.astro";
             </SectionContainer>
             <SectionContainer id="contact" class="flex justify-center">
                 <ContactForm />
+            </SectionContainer>
+            <SectionContainer id="about" class="flex justify-center">
+                <!--  <div>Über mich</div> -->
+                <AboutCard />
             </SectionContainer>
             <!-- More Features -->
             <!--                 <SectionContainer id="testimonials" class="benefits">
