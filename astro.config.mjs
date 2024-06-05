@@ -9,7 +9,7 @@ import prefetch from "@astrojs/prefetch";
 // https://astro.build/config
 //TODO: Set site to the actual domain !!!
 export default defineConfig({
-    site: "https://meyer-marco.github.io",
+    site: "https://meyer-marco.github.io/",
     vite: {
         optimizeDeps: {
             exclude: ["@resvg/resvg-js"]
