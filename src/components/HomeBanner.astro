@@ -8,7 +8,7 @@ import Content from "./Content.astro";
 import SectionContainer from "./SectionContainer.astro";
 import PageTitle from "./PageTitle.astro";
 import { Icon } from "astro-icon";
-import { Image } from "@astrojs/image/components";
+import { Image } from 'astro:assets';
 import { MotionBTTContainer } from "./motion/MotionBTTContainer.jsx";
 ---
 
@@ -61,7 +61,6 @@ import { MotionBTTContainer } from "./motion/MotionBTTContainer.jsx";
                     width={1024}
                     height={680}
                     alt={"Page Banner"}
-                    aspectRatio={16 / 9}
                     format={"webp"}
                     class="rounded-2xl"
                 />

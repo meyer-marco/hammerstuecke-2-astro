@@ -5,7 +5,7 @@ import SectionContainer from "../SectionContainer.astro";
 import BadgeGroup from "../badge/BadgeGroup.astro";
 import BadgeIcon from "../badge/BadgeIcon.astro";
 import BadgeMessage from "../badge/BadgeMessage.astro";
-import { Image } from "@astrojs/image/components";
+import { Image } from 'astro:assets';
 ---
 
 <SectionContainer class="page-banner--inner-container wrap wrap-px z-10">
@@ -29,7 +29,6 @@ import { Image } from "@astrojs/image/components";
                     width={256}
                     height={256}
                     alt={"Person"}
-                    aspectRatio={1 / 1}
                     class="rounded-full"
                 />
             </div>

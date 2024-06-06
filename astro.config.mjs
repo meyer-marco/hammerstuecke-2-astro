@@ -3,7 +3,6 @@ import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
-import image from "@astrojs/image";
 import prefetch from "@astrojs/prefetch";
 
 // https://astro.build/config
@@ -22,9 +21,9 @@ export default defineConfig({
         mdx(),
         sitemap(),
         tailwind(),
-        image({
+        /*         image({
             serviceEntryPoint: "@astrojs/image/sharp"
-        }),
+        }), */
         prefetch(),
         react()
     ]
