@@ -4,20 +4,20 @@
         "title": "Handgefertigte Schmuckkunst",
         "content": "Erleben Sie die faszinierende Welt handgefertigter Schmuckstücke, die bei Hammerstücke mit Hingabe und kreativer Leidenschaft individuell gestaltet werden. Jedes Schmuckstück erzählt eine eigene Geschichte und spiegelt die Seele seines Schöpfers wider, eingefangen in funkelnden Edelsteinen und edlen Materialien.",
         "align": "right",
-        "image": "/public/images/goldsmithFemale.webp"
+        "image": "/src/assets/images/goldsmithFemale.webp"
     },
     {
         "id": 1,
         "title": "Individuelle Eheringe",
         "content": "Ihre Zufriedenheit ist unser oberstes Ziel. Deshalb begleiten wir Sie von der ersten Idee bis zum fertigen Ring und darüber hinaus. Unser Service endet nicht mit der Übergabe Ihrer Eheringe – wir sind immer für Sie da, wenn Sie Fragen haben oder Unterstützung benötigen.",
         "align": "left",
-        "image": "/public/images/rings.webp"
+        "image": "/src/assets/images/rings.webp"
     },
     {
         "id": 1,
         "title": "Fachgerechte Reparaturen",
         "content": "Vertrauen Sie auf meine Expertise bei der Reparatur Ihrer wertvollen Schmuckstücke. Ich setze mein Wissen und meine Fähigkeiten ein, um Ihre Lieblingsstücke wieder in neuem Glanz erstrahlen zu lassen. Egal ob beschädigter Ring, gerissene Kette oder verlorener Stein – ich repariere alles mit größter Sorgfalt und Präzision.",
         "align": "right",
-        "image": "/public/images/repair.webp"
+        "image": "/src/assets/images/repair.webp"
     }
 ]

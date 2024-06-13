@@ -22,6 +22,8 @@ import CardHeader from "@/components/card/CardHeader.astro";
 import Column from "@/components/Column.astro";
 import ContactForm from "../components/contactForm/ContactForm.astro";
 import AboutCard from "../components/about/AboutCard.astro";
+import customerImage from '@/assets/images/customer.webp'
+import marriageringsImage from '@/assets/images/marriagerings.webp'
 ---
 
 <Layout
@@ -78,7 +80,7 @@ import AboutCard from "../components/about/AboutCard.astro";
                             class="w-full bg-white-600/20 p-12 rounded-2xl"
                         >
                             <CardImage
-                                src="/images/customer.webp"
+                                src={customerImage}
                                 alt="Customizable Layouts image used."
                             />
                             <CardHeader
@@ -101,7 +103,7 @@ import AboutCard from "../components/about/AboutCard.astro";
                             class="w-full bg-white-600/20 rounded-2xl p-12"
                         >
                             <CardImage
-                                src="/images/marriagerings.webp"
+                                src={marriageringsImage}
                                 alt="Progress Tracking image used."
                             />
                             <CardHeader

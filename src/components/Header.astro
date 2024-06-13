@@ -5,6 +5,8 @@ import ButtonGroup from "./button/ButtonGroup.astro";
 import { Icon } from "astro-icon";
 import { Image } from 'astro:assets';
 import navData from "@/data/navData.json";
+import mainLogo from '../../public/HammerstueckeLogoNew4.svg'
+import { m } from "framer-motion";
 ---
 
 <header id="header" class="header fixed left-0 w-full z-30 top-0 bg-white">
@@ -13,7 +15,7 @@ import navData from "@/data/navData.json";
             <h1 class="mb-0">
                 <a href="/">
                     <Image
-                        src="/HammerstueckeLogoNew4.svg"
+                        src={mainLogo}
                         alt="logo"
                         height={32}
                         width={200}

@@ -6,6 +6,7 @@ import BadgeGroup from "../badge/BadgeGroup.astro";
 import BadgeIcon from "../badge/BadgeIcon.astro";
 import BadgeMessage from "../badge/BadgeMessage.astro";
 import { Image } from 'astro:assets';
+import katjaImage from '@/assets/images/katja.webp';
 ---
 
 <SectionContainer class="page-banner--inner-container wrap wrap-px z-10">
@@ -25,7 +26,7 @@ import { Image } from 'astro:assets';
         <Content class="text-center" alignment="center">
             <div class="flex justify-center mx-auto mt-20">
                 <Image
-                    src={"/images/katja.webp"}
+                    src={katjaImage}
                     width={256}
                     height={256}
                     alt={"Person"}
