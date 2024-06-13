@@ -14,7 +14,7 @@ export default defineConfig({
     output: "static",
     site: "https://meyer-marco.github.io/hammerstuecke-2-astro/",
     //TODO: Set when deploying to github pages
-    /*     base: "/hammerstuecke-2-astro", */
+    base: "/hammerstuecke-2-astro",
     build: {
         format: "file"
     },
