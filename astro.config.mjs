@@ -13,7 +13,8 @@ import { fileURLToPath } from "url";
 export default defineConfig({
     output: "static",
     site: "https://meyer-marco.github.io/hammerstuecke-2-astro/",
-    buildOptions: {
+    build: {
+        assets: "assets",
         format: "file"
     },
     vite: {
