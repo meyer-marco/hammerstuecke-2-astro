@@ -14,7 +14,7 @@ export default defineConfig({
     output: "static",
     site: "https://meyer-marco.github.io/hammerstuecke-2-astro/",
     build: {
-        assets: "assets",
+        assets: "public",
         format: "file"
     },
     vite: {
