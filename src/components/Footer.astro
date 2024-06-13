@@ -3,6 +3,7 @@ import SectionContainer from "./SectionContainer.astro";
 import ButtonGroup from "./button/ButtonGroup.astro";
 import { Icon } from "astro-icon";
 import { Image } from 'astro:assets';
+import mainLogo from '../../public/HammerstueckeLogoNew4.svg'
 
 const { footerNavData } = Astro.props;
 const date = new Date();
@@ -20,7 +21,7 @@ const year = date.getFullYear();
                     <div class="footer--logo grid gap-8">
                         <a href="/">
                             <Image
-                                src="/HammerstueckeLogoNew4.svg"
+                                src={mainLogo}
                                 alt="logo"
                                 height={32}
                                 width={200}
