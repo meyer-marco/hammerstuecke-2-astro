@@ -12,7 +12,7 @@ import { fileURLToPath } from "url";
 //const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export default defineConfig({
     output: "static",
-    site: "https://meyer-marco.github.io/",
+    site: "https://meyer-marco.github.io/hammerstuecke-2-astro/",
     buildOptions: {
         format: "file"
     },
