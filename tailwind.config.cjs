@@ -15,9 +15,9 @@ module.exports = {
                     }
                 ],
                 h1: [
-                    "3.5rem",
+                    "2.5rem",
                     {
-                        lineHeight: "3.75rem"
+                        lineHeight: "2.75rem"
                     }
                 ],
                 h2: [

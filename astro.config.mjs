@@ -1,11 +1,9 @@
 import { defineConfig } from "astro/config";
-import path from "path";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 import prefetch from "@astrojs/prefetch";
-import { fileURLToPath } from "url";
 
 //TODO: Set site to the actual domain !!!
 //https://astro.build/config
@@ -13,7 +11,7 @@ import { fileURLToPath } from "url";
 export default defineConfig({
     output: "static",
     site: "https://meyer-marco.github.io/hammerstuecke-2-astro/",
-    base: "/hammerstuecke-2-astro/",
+    /*  base: "/hammerstuecke-2-astro/", */
     build: {
         format: "file"
     },

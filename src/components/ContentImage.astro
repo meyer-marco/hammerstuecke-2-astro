@@ -2,8 +2,28 @@
 import SectionContainer from "./SectionContainer.astro";
 import { Icon } from "astro-icon";
 import { Image } from 'astro:assets';
+import rings from "@/assets/images/rings.webp";
+import goldsmithFemale from "@/assets/images/goldsmithFemale.webp";
+import repair from "@/assets/images/repair.webp";
 
 const { contentImageData } = Astro.props;
+//JavaScript here
+
+const getImage = (image) => {
+    switch (image) {
+        case "rings":
+            return rings;
+        case "goldsmithFemale":
+            return goldsmithFemale;
+        case "repair":
+            return repair;
+        default:
+            return rings;
+    }
+
+};
+
+
 ---
 
 <SectionContainer class="process-items mt-16 space-y-16">
@@ -19,7 +39,7 @@ const { contentImageData } = Astro.props;
                     }`}
                 >
                     <Image
-                        src={item.image}
+                        src={getImage(item.image)}
                         height={1024}
                         width={1024}
                         alt="Process Banner 1"
